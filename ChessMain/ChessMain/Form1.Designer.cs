@@ -1,6 +1,6 @@
 ﻿namespace ChessMain
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.Panel = new System.Windows.Forms.Panel();
+            this.BoardPanel = new System.Windows.Forms.TableLayoutPanel();
             this.BlackPawn8 = new System.Windows.Forms.Button();
             this.BlackPawn7 = new System.Windows.Forms.Button();
             this.BlackPawn6 = new System.Windows.Forms.Button();
@@ -79,80 +79,79 @@
             this.ColFLabel = new System.Windows.Forms.Label();
             this.ColGLabel = new System.Windows.Forms.Label();
             this.ColHLabel = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.Panel.SuspendLayout();
+            this.BoardPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // Panel
             // 
-            this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(405, 401);
-            this.panel1.TabIndex = 0;
+            this.Panel.Controls.Add(this.BoardPanel);
+            this.Panel.Location = new System.Drawing.Point(12, 12);
+            this.Panel.Name = "Panel";
+            this.Panel.Size = new System.Drawing.Size(405, 401);
+            this.Panel.TabIndex = 0;
             // 
-            // tableLayoutPanel1
+            // BoardPanel
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel1.BackgroundImage")));
-            this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.tableLayoutPanel1.ColumnCount = 8;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn8, 7, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn7, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn6, 5, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn5, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn3, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackRook2, 7, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackKnight2, 6, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackBishop2, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackKing, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackQueen, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackBishop1, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackKnight1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackRook1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn2, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn3, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn4, 3, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn5, 4, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn6, 5, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn7, 6, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn8, 7, 6);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteRook1, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteKnight1, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteBishop1, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteQueen, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteKing, 4, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteBishop2, 5, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteKnight2, 6, 7);
-            this.tableLayoutPanel1.Controls.Add(this.WhiteRook2, 7, 7);
-            this.tableLayoutPanel1.Controls.Add(this.BlackPawn4, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.WhitePawn1, 0, 6);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(405, 401);
-            this.tableLayoutPanel1.TabIndex = 0;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            this.BoardPanel.BackColor = System.Drawing.Color.Transparent;
+            this.BoardPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BoardPanel.BackgroundImage")));
+            this.BoardPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BoardPanel.ColumnCount = 8;
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.Controls.Add(this.BlackPawn8, 7, 1);
+            this.BoardPanel.Controls.Add(this.BlackPawn7, 6, 1);
+            this.BoardPanel.Controls.Add(this.BlackPawn6, 5, 1);
+            this.BoardPanel.Controls.Add(this.BlackPawn5, 4, 1);
+            this.BoardPanel.Controls.Add(this.BlackPawn3, 2, 1);
+            this.BoardPanel.Controls.Add(this.BlackRook2, 7, 0);
+            this.BoardPanel.Controls.Add(this.BlackKnight2, 6, 0);
+            this.BoardPanel.Controls.Add(this.BlackBishop2, 5, 0);
+            this.BoardPanel.Controls.Add(this.BlackKing, 4, 0);
+            this.BoardPanel.Controls.Add(this.BlackQueen, 3, 0);
+            this.BoardPanel.Controls.Add(this.BlackBishop1, 2, 0);
+            this.BoardPanel.Controls.Add(this.BlackKnight1, 1, 0);
+            this.BoardPanel.Controls.Add(this.BlackRook1, 0, 0);
+            this.BoardPanel.Controls.Add(this.BlackPawn1, 0, 1);
+            this.BoardPanel.Controls.Add(this.BlackPawn2, 1, 1);
+            this.BoardPanel.Controls.Add(this.WhitePawn2, 1, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn3, 2, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn4, 3, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn5, 4, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn6, 5, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn7, 6, 6);
+            this.BoardPanel.Controls.Add(this.WhitePawn8, 7, 6);
+            this.BoardPanel.Controls.Add(this.WhiteRook1, 0, 7);
+            this.BoardPanel.Controls.Add(this.WhiteKnight1, 1, 7);
+            this.BoardPanel.Controls.Add(this.WhiteBishop1, 2, 7);
+            this.BoardPanel.Controls.Add(this.WhiteQueen, 3, 7);
+            this.BoardPanel.Controls.Add(this.WhiteKing, 4, 7);
+            this.BoardPanel.Controls.Add(this.WhiteBishop2, 5, 7);
+            this.BoardPanel.Controls.Add(this.WhiteKnight2, 6, 7);
+            this.BoardPanel.Controls.Add(this.WhiteRook2, 7, 7);
+            this.BoardPanel.Controls.Add(this.BlackPawn4, 3, 1);
+            this.BoardPanel.Controls.Add(this.WhitePawn1, 0, 6);
+            this.BoardPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BoardPanel.Location = new System.Drawing.Point(0, 0);
+            this.BoardPanel.Name = "BoardPanel";
+            this.BoardPanel.RowCount = 8;
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.BoardPanel.Size = new System.Drawing.Size(405, 401);
+            this.BoardPanel.TabIndex = 0;
             // 
             // BlackPawn8
             // 
@@ -397,7 +396,6 @@
             this.WhiteKing.TabIndex = 41;
             this.WhiteKing.Text = "WhiteKing";
             this.WhiteKing.UseVisualStyleBackColor = true;
-            //this.WhiteKing.Visible = false; //Use of this disables clicking on a single button.
             this.WhiteKing.Click += new System.EventHandler(this.WhiteKing_Click);
             // 
             // WhiteBishop2
@@ -550,7 +548,6 @@
             this.Row1Label.TabIndex = 8;
             this.Row1Label.Text = "1";
             this.Row1Label.UseCompatibleTextRendering = true;
-            this.Row1Label.Click += new System.EventHandler(this.label7_Click);
             // 
             // ColALabel
             // 
@@ -658,7 +655,7 @@
             this.ColHLabel.Text = "H";
             this.ColHLabel.UseCompatibleTextRendering = true;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -680,12 +677,12 @@
             this.Controls.Add(this.Row6Label);
             this.Controls.Add(this.Row7Label);
             this.Controls.Add(this.Row8Label);
-            this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Controls.Add(this.Panel);
+            this.Name = "MainForm";
             this.Text = "Chess!";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.Panel.ResumeLayout(false);
+            this.BoardPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -693,14 +690,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel Panel;
+        private System.Windows.Forms.TableLayoutPanel BoardPanel;
+
         private System.Windows.Forms.Button BlackPawn8;
         private System.Windows.Forms.Button BlackPawn7;
         private System.Windows.Forms.Button BlackPawn6;
         private System.Windows.Forms.Button BlackPawn5;
         private System.Windows.Forms.Button BlackPawn4;
         private System.Windows.Forms.Button BlackPawn3;
+        private System.Windows.Forms.Button BlackPawn2;
+        private System.Windows.Forms.Button BlackPawn1;
+
         private System.Windows.Forms.Button BlackRook2;
         private System.Windows.Forms.Button BlackKnight2;
         private System.Windows.Forms.Button BlackBishop2;
@@ -709,8 +710,8 @@
         private System.Windows.Forms.Button BlackBishop1;
         private System.Windows.Forms.Button BlackKnight1;
         private System.Windows.Forms.Button BlackRook1;
-        private System.Windows.Forms.Button BlackPawn1;
-        private System.Windows.Forms.Button BlackPawn2;
+
+
         private System.Windows.Forms.Button WhitePawn1;
         private System.Windows.Forms.Button WhitePawn2;
         private System.Windows.Forms.Button WhitePawn3;
@@ -727,6 +728,7 @@
         private System.Windows.Forms.Button WhiteBishop2;
         private System.Windows.Forms.Button WhiteKnight2;
         private System.Windows.Forms.Button WhiteRook2;
+
         private System.Windows.Forms.Label Row8Label;
         private System.Windows.Forms.Label Row7Label;
         private System.Windows.Forms.Label Row6Label;
@@ -735,6 +737,7 @@
         private System.Windows.Forms.Label Row3Label;
         private System.Windows.Forms.Label Row2Label;
         private System.Windows.Forms.Label Row1Label;
+
         private System.Windows.Forms.Label ColALabel;
         private System.Windows.Forms.Label ColBLabel;
         private System.Windows.Forms.Label ColCLabel;

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ChessMain
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -24,16 +24,6 @@ namespace ChessMain
             this.MinimizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ShowDialog();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void WhiteKing_Click(object sender, EventArgs e)
