@@ -31,38 +31,70 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.Panel = new System.Windows.Forms.Panel();
             this.BoardPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.BlackPawn8 = new System.Windows.Forms.Button();
-            this.BlackPawn7 = new System.Windows.Forms.Button();
-            this.BlackPawn6 = new System.Windows.Forms.Button();
-            this.BlackPawn5 = new System.Windows.Forms.Button();
-            this.BlackPawn3 = new System.Windows.Forms.Button();
-            this.BlackRook2 = new System.Windows.Forms.Button();
-            this.BlackKnight2 = new System.Windows.Forms.Button();
-            this.BlackBishop2 = new System.Windows.Forms.Button();
-            this.BlackKing = new System.Windows.Forms.Button();
-            this.BlackQueen = new System.Windows.Forms.Button();
-            this.BlackBishop1 = new System.Windows.Forms.Button();
-            this.BlackKnight1 = new System.Windows.Forms.Button();
-            this.BlackRook1 = new System.Windows.Forms.Button();
-            this.BlackPawn1 = new System.Windows.Forms.Button();
-            this.BlackPawn2 = new System.Windows.Forms.Button();
-            this.WhitePawn2 = new System.Windows.Forms.Button();
-            this.WhitePawn3 = new System.Windows.Forms.Button();
-            this.WhitePawn4 = new System.Windows.Forms.Button();
-            this.WhitePawn5 = new System.Windows.Forms.Button();
-            this.WhitePawn6 = new System.Windows.Forms.Button();
-            this.WhitePawn7 = new System.Windows.Forms.Button();
-            this.WhitePawn8 = new System.Windows.Forms.Button();
-            this.WhiteRook1 = new System.Windows.Forms.Button();
-            this.WhiteKnight1 = new System.Windows.Forms.Button();
-            this.WhiteBishop1 = new System.Windows.Forms.Button();
-            this.WhiteQueen = new System.Windows.Forms.Button();
-            this.WhiteKing = new System.Windows.Forms.Button();
-            this.WhiteBishop2 = new System.Windows.Forms.Button();
-            this.WhiteKnight2 = new System.Windows.Forms.Button();
-            this.WhiteRook2 = new System.Windows.Forms.Button();
-            this.BlackPawn4 = new System.Windows.Forms.Button();
-            this.WhitePawn1 = new System.Windows.Forms.Button();
+            this.A1 = new System.Windows.Forms.PictureBox();
+            this.A8 = new System.Windows.Forms.PictureBox();
+            this.B7 = new System.Windows.Forms.PictureBox();
+            this.C6 = new System.Windows.Forms.PictureBox();
+            this.B8 = new System.Windows.Forms.PictureBox();
+            this.A2 = new System.Windows.Forms.PictureBox();
+            this.B3 = new System.Windows.Forms.PictureBox();
+            this.C4 = new System.Windows.Forms.PictureBox();
+            this.D5 = new System.Windows.Forms.PictureBox();
+            this.E6 = new System.Windows.Forms.PictureBox();
+            this.F7 = new System.Windows.Forms.PictureBox();
+            this.G8 = new System.Windows.Forms.PictureBox();
+            this.A6 = new System.Windows.Forms.PictureBox();
+            this.B5 = new System.Windows.Forms.PictureBox();
+            this.A4 = new System.Windows.Forms.PictureBox();
+            this.C2 = new System.Windows.Forms.PictureBox();
+            this.B1 = new System.Windows.Forms.PictureBox();
+            this.D1 = new System.Windows.Forms.PictureBox();
+            this.E2 = new System.Windows.Forms.PictureBox();
+            this.F1 = new System.Windows.Forms.PictureBox();
+            this.G2 = new System.Windows.Forms.PictureBox();
+            this.H1 = new System.Windows.Forms.PictureBox();
+            this.H3 = new System.Windows.Forms.PictureBox();
+            this.H5 = new System.Windows.Forms.PictureBox();
+            this.H7 = new System.Windows.Forms.PictureBox();
+            this.G6 = new System.Windows.Forms.PictureBox();
+            this.G4 = new System.Windows.Forms.PictureBox();
+            this.F5 = new System.Windows.Forms.PictureBox();
+            this.F3 = new System.Windows.Forms.PictureBox();
+            this.E4 = new System.Windows.Forms.PictureBox();
+            this.D3 = new System.Windows.Forms.PictureBox();
+            this.D7 = new System.Windows.Forms.PictureBox();
+            this.C8 = new System.Windows.Forms.PictureBox();
+            this.E8 = new System.Windows.Forms.PictureBox();
+            this.A7 = new System.Windows.Forms.PictureBox();
+            this.A3 = new System.Windows.Forms.PictureBox();
+            this.B2 = new System.Windows.Forms.PictureBox();
+            this.C1 = new System.Windows.Forms.PictureBox();
+            this.D2 = new System.Windows.Forms.PictureBox();
+            this.C3 = new System.Windows.Forms.PictureBox();
+            this.B4 = new System.Windows.Forms.PictureBox();
+            this.A5 = new System.Windows.Forms.PictureBox();
+            this.B6 = new System.Windows.Forms.PictureBox();
+            this.C5 = new System.Windows.Forms.PictureBox();
+            this.D4 = new System.Windows.Forms.PictureBox();
+            this.E3 = new System.Windows.Forms.PictureBox();
+            this.F2 = new System.Windows.Forms.PictureBox();
+            this.G1 = new System.Windows.Forms.PictureBox();
+            this.E1 = new System.Windows.Forms.PictureBox();
+            this.H2 = new System.Windows.Forms.PictureBox();
+            this.G3 = new System.Windows.Forms.PictureBox();
+            this.F4 = new System.Windows.Forms.PictureBox();
+            this.H4 = new System.Windows.Forms.PictureBox();
+            this.G5 = new System.Windows.Forms.PictureBox();
+            this.E5 = new System.Windows.Forms.PictureBox();
+            this.F6 = new System.Windows.Forms.PictureBox();
+            this.H6 = new System.Windows.Forms.PictureBox();
+            this.E7 = new System.Windows.Forms.PictureBox();
+            this.D6 = new System.Windows.Forms.PictureBox();
+            this.C7 = new System.Windows.Forms.PictureBox();
+            this.D8 = new System.Windows.Forms.PictureBox();
+            this.F8 = new System.Windows.Forms.PictureBox();
+            this.H8 = new System.Windows.Forms.PictureBox();
+            this.G7 = new System.Windows.Forms.PictureBox();
             this.Row8Label = new System.Windows.Forms.Label();
             this.Row7Label = new System.Windows.Forms.Label();
             this.Row6Label = new System.Windows.Forms.Label();
@@ -81,10 +113,75 @@
             this.ColHLabel = new System.Windows.Forms.Label();
             this.Panel.SuspendLayout();
             this.BoardPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.A1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G7)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel
             // 
+            this.Panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Panel.Controls.Add(this.BoardPanel);
             this.Panel.Location = new System.Drawing.Point(12, 12);
             this.Panel.Name = "Panel";
@@ -94,8 +191,8 @@
             // BoardPanel
             // 
             this.BoardPanel.BackColor = System.Drawing.Color.Transparent;
-            this.BoardPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BoardPanel.BackgroundImage")));
             this.BoardPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BoardPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
             this.BoardPanel.ColumnCount = 8;
             this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -105,38 +202,81 @@
             this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.BoardPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.BoardPanel.Controls.Add(this.BlackPawn8, 7, 1);
-            this.BoardPanel.Controls.Add(this.BlackPawn7, 6, 1);
-            this.BoardPanel.Controls.Add(this.BlackPawn6, 5, 1);
-            this.BoardPanel.Controls.Add(this.BlackPawn5, 4, 1);
-            this.BoardPanel.Controls.Add(this.BlackPawn3, 2, 1);
-            this.BoardPanel.Controls.Add(this.BlackRook2, 7, 0);
-            this.BoardPanel.Controls.Add(this.BlackKnight2, 6, 0);
-            this.BoardPanel.Controls.Add(this.BlackBishop2, 5, 0);
-            this.BoardPanel.Controls.Add(this.BlackKing, 4, 0);
-            this.BoardPanel.Controls.Add(this.BlackQueen, 3, 0);
-            this.BoardPanel.Controls.Add(this.BlackBishop1, 2, 0);
-            this.BoardPanel.Controls.Add(this.BlackKnight1, 1, 0);
-            this.BoardPanel.Controls.Add(this.BlackRook1, 0, 0);
-            this.BoardPanel.Controls.Add(this.BlackPawn1, 0, 1);
-            this.BoardPanel.Controls.Add(this.BlackPawn2, 1, 1);
-            this.BoardPanel.Controls.Add(this.WhitePawn2, 1, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn3, 2, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn4, 3, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn5, 4, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn6, 5, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn7, 6, 6);
-            this.BoardPanel.Controls.Add(this.WhitePawn8, 7, 6);
-            this.BoardPanel.Controls.Add(this.WhiteRook1, 0, 7);
-            this.BoardPanel.Controls.Add(this.WhiteKnight1, 1, 7);
-            this.BoardPanel.Controls.Add(this.WhiteBishop1, 2, 7);
-            this.BoardPanel.Controls.Add(this.WhiteQueen, 3, 7);
-            this.BoardPanel.Controls.Add(this.WhiteKing, 4, 7);
-            this.BoardPanel.Controls.Add(this.WhiteBishop2, 5, 7);
-            this.BoardPanel.Controls.Add(this.WhiteKnight2, 6, 7);
-            this.BoardPanel.Controls.Add(this.WhiteRook2, 7, 7);
-            this.BoardPanel.Controls.Add(this.BlackPawn4, 3, 1);
-            this.BoardPanel.Controls.Add(this.WhitePawn1, 0, 6);
+
+            /* Use of all image files opposed to the Buttons here before, easier to work with design-wise*/
+            this.BoardPanel.Controls.Add(this.A8, 0, 0);
+            this.BoardPanel.Controls.Add(this.A7, 0, 1);
+            this.BoardPanel.Controls.Add(this.A6, 0, 2);
+            this.BoardPanel.Controls.Add(this.A5, 0, 3);
+            this.BoardPanel.Controls.Add(this.A4, 0, 4);
+            this.BoardPanel.Controls.Add(this.A3, 0, 5);
+            this.BoardPanel.Controls.Add(this.A2, 0, 6);
+            this.BoardPanel.Controls.Add(this.A1, 0, 7);
+
+            this.BoardPanel.Controls.Add(this.B8, 1, 0);
+            this.BoardPanel.Controls.Add(this.B7, 1, 1);
+            this.BoardPanel.Controls.Add(this.B6, 1, 2);
+            this.BoardPanel.Controls.Add(this.B5, 1, 3);
+            this.BoardPanel.Controls.Add(this.B4, 1, 4);
+            this.BoardPanel.Controls.Add(this.B3, 1, 5);
+            this.BoardPanel.Controls.Add(this.B2, 1, 6);
+            this.BoardPanel.Controls.Add(this.B1, 1, 7);
+
+            this.BoardPanel.Controls.Add(this.C8, 2, 0);
+            this.BoardPanel.Controls.Add(this.C7, 2, 1);
+            this.BoardPanel.Controls.Add(this.C6, 2, 2);
+            this.BoardPanel.Controls.Add(this.C5, 2, 3);
+            this.BoardPanel.Controls.Add(this.C4, 2, 4);
+            this.BoardPanel.Controls.Add(this.C3, 2, 5);
+            this.BoardPanel.Controls.Add(this.C2, 2, 6);
+            this.BoardPanel.Controls.Add(this.C1, 2, 7);
+
+            this.BoardPanel.Controls.Add(this.D8, 3, 0);
+            this.BoardPanel.Controls.Add(this.D7, 3, 1);
+            this.BoardPanel.Controls.Add(this.D6, 3, 2);
+            this.BoardPanel.Controls.Add(this.D5, 3, 3);
+            this.BoardPanel.Controls.Add(this.D4, 3, 4);
+            this.BoardPanel.Controls.Add(this.D3, 3, 5);
+            this.BoardPanel.Controls.Add(this.D2, 3, 6);
+            this.BoardPanel.Controls.Add(this.D1, 3, 7);
+
+            this.BoardPanel.Controls.Add(this.E8, 4, 0);
+            this.BoardPanel.Controls.Add(this.E7, 4, 1);
+            this.BoardPanel.Controls.Add(this.E6, 4, 2);
+            this.BoardPanel.Controls.Add(this.E5, 4, 3);
+            this.BoardPanel.Controls.Add(this.E4, 4, 4);
+            this.BoardPanel.Controls.Add(this.E3, 4, 5);
+            this.BoardPanel.Controls.Add(this.E2, 4, 6);
+            this.BoardPanel.Controls.Add(this.E1, 4, 7);
+
+            this.BoardPanel.Controls.Add(this.F8, 5, 0);
+            this.BoardPanel.Controls.Add(this.F7, 5, 1);
+            this.BoardPanel.Controls.Add(this.F6, 5, 2);
+            this.BoardPanel.Controls.Add(this.F5, 5, 3);
+            this.BoardPanel.Controls.Add(this.F4, 5, 4);
+            this.BoardPanel.Controls.Add(this.F3, 5, 5);
+            this.BoardPanel.Controls.Add(this.F2, 5, 6);
+            this.BoardPanel.Controls.Add(this.F1, 5, 7);
+
+            this.BoardPanel.Controls.Add(this.G8, 6, 0);
+            this.BoardPanel.Controls.Add(this.G7, 6, 1);
+            this.BoardPanel.Controls.Add(this.G6, 6, 2);
+            this.BoardPanel.Controls.Add(this.G5, 6, 3);
+            this.BoardPanel.Controls.Add(this.G4, 6, 4);
+            this.BoardPanel.Controls.Add(this.G3, 6, 5);
+            this.BoardPanel.Controls.Add(this.G2, 6, 6);
+            this.BoardPanel.Controls.Add(this.G1, 6, 7);
+
+            this.BoardPanel.Controls.Add(this.H8, 7, 0);
+            this.BoardPanel.Controls.Add(this.H7, 7, 1);
+            this.BoardPanel.Controls.Add(this.H6, 7, 2);
+            this.BoardPanel.Controls.Add(this.H5, 7, 3);
+            this.BoardPanel.Controls.Add(this.H4, 7, 4);
+            this.BoardPanel.Controls.Add(this.H3, 7, 5);
+            this.BoardPanel.Controls.Add(this.H2, 7, 6);
+            this.BoardPanel.Controls.Add(this.H1, 7, 7);
+
+            
             this.BoardPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BoardPanel.Location = new System.Drawing.Point(0, 0);
             this.BoardPanel.Name = "BoardPanel";
@@ -150,299 +290,553 @@
             this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.BoardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.BoardPanel.Size = new System.Drawing.Size(405, 401);
+            this.BoardPanel.Size = new System.Drawing.Size(401, 397);
             this.BoardPanel.TabIndex = 0;
             // 
-            // BlackPawn8
+            // A1
             // 
-            this.BlackPawn8.Location = new System.Drawing.Point(353, 53);
-            this.BlackPawn8.Name = "BlackPawn8";
-            this.BlackPawn8.Size = new System.Drawing.Size(49, 44);
-            this.BlackPawn8.TabIndex = 28;
-            this.BlackPawn8.Text = "BlackPawn8";
-            this.BlackPawn8.UseVisualStyleBackColor = true;
+            this.A1.Location = new System.Drawing.Point(5, 348);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(41, 41);
+            this.A1.TabIndex = 108;
+            this.A1.TabStop = false;
             // 
-            // BlackPawn7
+            // A8
             // 
-            this.BlackPawn7.Location = new System.Drawing.Point(303, 53);
-            this.BlackPawn7.Name = "BlackPawn7";
-            this.BlackPawn7.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn7.TabIndex = 26;
-            this.BlackPawn7.Text = "BlackPawn7";
-            this.BlackPawn7.UseVisualStyleBackColor = true;
+            this.A8.Image = ((System.Drawing.Image)(resources.GetObject("A8.Image")));
+            this.A8.Location = new System.Drawing.Point(5, 5);
+            this.A8.Name = "A8";
+            this.A8.Size = new System.Drawing.Size(41, 41);
+            this.A8.TabIndex = 46;
+            this.A8.TabStop = false;
+            this.A8.Click += new System.EventHandler(this.A8_Click);
             // 
-            // BlackPawn6
+            // B7
             // 
-            this.BlackPawn6.Location = new System.Drawing.Point(253, 53);
-            this.BlackPawn6.Name = "BlackPawn6";
-            this.BlackPawn6.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn6.TabIndex = 24;
-            this.BlackPawn6.Text = "BlackPawn6";
-            this.BlackPawn6.UseVisualStyleBackColor = true;
+            this.B7.Image = ((System.Drawing.Image)(resources.GetObject("B7.Image")));
+            this.B7.Location = new System.Drawing.Point(54, 54);
+            this.B7.Name = "B7";
+            this.B7.Size = new System.Drawing.Size(41, 41);
+            this.B7.TabIndex = 48;
+            this.B7.TabStop = false;
             // 
-            // BlackPawn5
+            // C6
             // 
-            this.BlackPawn5.Location = new System.Drawing.Point(203, 53);
-            this.BlackPawn5.Name = "BlackPawn5";
-            this.BlackPawn5.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn5.TabIndex = 22;
-            this.BlackPawn5.Text = "BlackPawn5";
-            this.BlackPawn5.UseVisualStyleBackColor = true;
+            this.C6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C6.BackgroundImage")));
+            this.C6.Location = new System.Drawing.Point(103, 103);
+            this.C6.Name = "C6";
+            this.C6.Size = new System.Drawing.Size(41, 41);
+            this.C6.TabIndex = 45;
+            this.C6.TabStop = false;
             // 
-            // BlackPawn3
+            // B8
             // 
-            this.BlackPawn3.Location = new System.Drawing.Point(103, 53);
-            this.BlackPawn3.Name = "BlackPawn3";
-            this.BlackPawn3.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn3.TabIndex = 18;
-            this.BlackPawn3.Text = "BlackPawn3";
-            this.BlackPawn3.UseVisualStyleBackColor = true;
+            this.B8.Location = new System.Drawing.Point(54, 5);
+            this.B8.Name = "B8";
+            this.B8.Size = new System.Drawing.Size(41, 41);
+            this.B8.TabIndex = 47;
+            this.B8.TabStop = false;
             // 
-            // BlackRook2
+            // A2
             // 
-            this.BlackRook2.Location = new System.Drawing.Point(353, 3);
-            this.BlackRook2.Name = "BlackRook2";
-            this.BlackRook2.Size = new System.Drawing.Size(49, 44);
-            this.BlackRook2.TabIndex = 16;
-            this.BlackRook2.Text = "BlackRook2";
-            this.BlackRook2.UseVisualStyleBackColor = true;
+            this.A2.Image = ((System.Drawing.Image)(resources.GetObject("A2.Image")));
+            this.A2.Location = new System.Drawing.Point(5, 299);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(41, 41);
+            this.A2.TabIndex = 52;
+            this.A2.TabStop = false;
             // 
-            // BlackKnight2
+            // B3
             // 
-            this.BlackKnight2.Location = new System.Drawing.Point(303, 3);
-            this.BlackKnight2.Name = "BlackKnight2";
-            this.BlackKnight2.Size = new System.Drawing.Size(44, 44);
-            this.BlackKnight2.TabIndex = 14;
-            this.BlackKnight2.Text = "BlackKnight2";
-            this.BlackKnight2.UseVisualStyleBackColor = true;
+            this.B3.Image = ((System.Drawing.Image)(resources.GetObject("B3.Image")));
+            this.B3.Location = new System.Drawing.Point(54, 250);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(41, 41);
+            this.B3.TabIndex = 49;
+            this.B3.TabStop = false;
             // 
-            // BlackBishop2
+            // C4
             // 
-            this.BlackBishop2.Location = new System.Drawing.Point(253, 3);
-            this.BlackBishop2.Name = "BlackBishop2";
-            this.BlackBishop2.Size = new System.Drawing.Size(44, 44);
-            this.BlackBishop2.TabIndex = 12;
-            this.BlackBishop2.Text = "BlackBishop2";
-            this.BlackBishop2.UseVisualStyleBackColor = true;
+            this.C4.Image = ((System.Drawing.Image)(resources.GetObject("C4.Image")));
+            this.C4.Location = new System.Drawing.Point(103, 201);
+            this.C4.Name = "C4";
+            this.C4.Size = new System.Drawing.Size(41, 41);
+            this.C4.TabIndex = 50;
+            this.C4.TabStop = false;
             // 
-            // BlackKing
+            // D5
             // 
-            this.BlackKing.Location = new System.Drawing.Point(203, 3);
-            this.BlackKing.Name = "BlackKing";
-            this.BlackKing.Size = new System.Drawing.Size(44, 44);
-            this.BlackKing.TabIndex = 10;
-            this.BlackKing.Text = "BlackKing";
-            this.BlackKing.UseVisualStyleBackColor = true;
+            this.D5.Image = ((System.Drawing.Image)(resources.GetObject("D5.Image")));
+            this.D5.Location = new System.Drawing.Point(152, 152);
+            this.D5.Name = "D5";
+            this.D5.Size = new System.Drawing.Size(41, 41);
+            this.D5.TabIndex = 51;
+            this.D5.TabStop = false;
             // 
-            // BlackQueen
+            // E6
             // 
-            this.BlackQueen.Location = new System.Drawing.Point(153, 3);
-            this.BlackQueen.Name = "BlackQueen";
-            this.BlackQueen.Size = new System.Drawing.Size(44, 44);
-            this.BlackQueen.TabIndex = 8;
-            this.BlackQueen.Text = "BlackQueen";
-            this.BlackQueen.UseVisualStyleBackColor = true;
+            this.E6.Image = ((System.Drawing.Image)(resources.GetObject("E6.Image")));
+            this.E6.Location = new System.Drawing.Point(201, 103);
+            this.E6.Name = "E6";
+            this.E6.Size = new System.Drawing.Size(41, 41);
+            this.E6.TabIndex = 53;
+            this.E6.TabStop = false;
             // 
-            // BlackBishop1
+            // F7
             // 
-            this.BlackBishop1.Location = new System.Drawing.Point(103, 3);
-            this.BlackBishop1.Name = "BlackBishop1";
-            this.BlackBishop1.Size = new System.Drawing.Size(44, 44);
-            this.BlackBishop1.TabIndex = 6;
-            this.BlackBishop1.Text = "BlackBishop1";
-            this.BlackBishop1.UseVisualStyleBackColor = true;
+            this.F7.Image = ((System.Drawing.Image)(resources.GetObject("F7.Image")));
+            this.F7.Location = new System.Drawing.Point(250, 54);
+            this.F7.Name = "F7";
+            this.F7.Size = new System.Drawing.Size(41, 41);
+            this.F7.TabIndex = 54;
+            this.F7.TabStop = false;
             // 
-            // BlackKnight1
+            // G8
             // 
-            this.BlackKnight1.Location = new System.Drawing.Point(53, 3);
-            this.BlackKnight1.Name = "BlackKnight1";
-            this.BlackKnight1.Size = new System.Drawing.Size(44, 44);
-            this.BlackKnight1.TabIndex = 4;
-            this.BlackKnight1.Text = "BlackKnight1";
-            this.BlackKnight1.UseVisualStyleBackColor = true;
+            this.G8.Image = ((System.Drawing.Image)(resources.GetObject("G8.Image")));
+            this.G8.Location = new System.Drawing.Point(299, 5);
+            this.G8.Name = "G8";
+            this.G8.Size = new System.Drawing.Size(41, 41);
+            this.G8.TabIndex = 55;
+            this.G8.TabStop = false;
             // 
-            // BlackRook1
+            // A6
             // 
-            this.BlackRook1.Location = new System.Drawing.Point(3, 3);
-            this.BlackRook1.Name = "BlackRook1";
-            this.BlackRook1.Size = new System.Drawing.Size(44, 44);
-            this.BlackRook1.TabIndex = 0;
-            this.BlackRook1.Text = "BlackRook1";
-            this.BlackRook1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BlackRook1.UseVisualStyleBackColor = true;
+            this.A6.Image = ((System.Drawing.Image)(resources.GetObject("A6.Image")));
+            this.A6.Location = new System.Drawing.Point(5, 103);
+            this.A6.Name = "A6";
+            this.A6.Size = new System.Drawing.Size(41, 41);
+            this.A6.TabIndex = 56;
+            this.A6.TabStop = false;
             // 
-            // BlackPawn1
+            // B5
             // 
-            this.BlackPawn1.Location = new System.Drawing.Point(3, 53);
-            this.BlackPawn1.Name = "BlackPawn1";
-            this.BlackPawn1.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn1.TabIndex = 1;
-            this.BlackPawn1.Text = "BlackPawn1";
-            this.BlackPawn1.UseVisualStyleBackColor = true;
+            this.B5.Image = ((System.Drawing.Image)(resources.GetObject("B5.Image")));
+            this.B5.Location = new System.Drawing.Point(54, 152);
+            this.B5.Name = "B5";
+            this.B5.Size = new System.Drawing.Size(41, 41);
+            this.B5.TabIndex = 57;
+            this.B5.TabStop = false;
             // 
-            // BlackPawn2
+            // A4
             // 
-            this.BlackPawn2.Location = new System.Drawing.Point(53, 53);
-            this.BlackPawn2.Name = "BlackPawn2";
-            this.BlackPawn2.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn2.TabIndex = 2;
-            this.BlackPawn2.Text = "BlackPawn2";
-            this.BlackPawn2.UseVisualStyleBackColor = true;
+            this.A4.Image = ((System.Drawing.Image)(resources.GetObject("A4.Image")));
+            this.A4.Location = new System.Drawing.Point(5, 201);
+            this.A4.Name = "A4";
+            this.A4.Size = new System.Drawing.Size(41, 41);
+            this.A4.TabIndex = 58;
+            this.A4.TabStop = false;
             // 
-            // WhitePawn2
+            // C2
             // 
-            this.WhitePawn2.Location = new System.Drawing.Point(53, 303);
-            this.WhitePawn2.Name = "WhitePawn2";
-            this.WhitePawn2.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn2.TabIndex = 30;
-            this.WhitePawn2.Text = "WhitePawn2";
-            this.WhitePawn2.UseVisualStyleBackColor = true;
+            this.C2.Image = ((System.Drawing.Image)(resources.GetObject("C2.Image")));
+            this.C2.Location = new System.Drawing.Point(103, 299);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(41, 41);
+            this.C2.TabIndex = 59;
+            this.C2.TabStop = false;
             // 
-            // WhitePawn3
+            // B1
             // 
-            this.WhitePawn3.Location = new System.Drawing.Point(103, 303);
-            this.WhitePawn3.Name = "WhitePawn3";
-            this.WhitePawn3.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn3.TabIndex = 31;
-            this.WhitePawn3.Text = "WhitePawn3";
-            this.WhitePawn3.UseVisualStyleBackColor = true;
+            this.B1.Image = ((System.Drawing.Image)(resources.GetObject("B1.Image")));
+            this.B1.Location = new System.Drawing.Point(54, 348);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(41, 41);
+            this.B1.TabIndex = 60;
+            this.B1.TabStop = false;
             // 
-            // WhitePawn4
+            // D1
             // 
-            this.WhitePawn4.Location = new System.Drawing.Point(153, 303);
-            this.WhitePawn4.Name = "WhitePawn4";
-            this.WhitePawn4.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn4.TabIndex = 32;
-            this.WhitePawn4.Text = "WhitePawn4";
-            this.WhitePawn4.UseVisualStyleBackColor = true;
+            this.D1.Image = ((System.Drawing.Image)(resources.GetObject("D1.Image")));
+            this.D1.Location = new System.Drawing.Point(152, 348);
+            this.D1.Name = "D1";
+            this.D1.Size = new System.Drawing.Size(41, 41);
+            this.D1.TabIndex = 61;
+            this.D1.TabStop = false;
             // 
-            // WhitePawn5
+            // E2
             // 
-            this.WhitePawn5.Location = new System.Drawing.Point(203, 303);
-            this.WhitePawn5.Name = "WhitePawn5";
-            this.WhitePawn5.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn5.TabIndex = 33;
-            this.WhitePawn5.Text = "WhitePawn5";
-            this.WhitePawn5.UseVisualStyleBackColor = true;
+            this.E2.Image = ((System.Drawing.Image)(resources.GetObject("E2.Image")));
+            this.E2.Location = new System.Drawing.Point(201, 299);
+            this.E2.Name = "E2";
+            this.E2.Size = new System.Drawing.Size(41, 41);
+            this.E2.TabIndex = 62;
+            this.E2.TabStop = false;
             // 
-            // WhitePawn6
+            // F1
             // 
-            this.WhitePawn6.Location = new System.Drawing.Point(253, 303);
-            this.WhitePawn6.Name = "WhitePawn6";
-            this.WhitePawn6.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn6.TabIndex = 34;
-            this.WhitePawn6.Text = "WhitePawn6";
-            this.WhitePawn6.UseVisualStyleBackColor = true;
+            this.F1.Image = ((System.Drawing.Image)(resources.GetObject("F1.Image")));
+            this.F1.Location = new System.Drawing.Point(250, 348);
+            this.F1.Name = "F1";
+            this.F1.Size = new System.Drawing.Size(41, 41);
+            this.F1.TabIndex = 63;
+            this.F1.TabStop = false;
             // 
-            // WhitePawn7
+            // G2
             // 
-            this.WhitePawn7.Location = new System.Drawing.Point(303, 303);
-            this.WhitePawn7.Name = "WhitePawn7";
-            this.WhitePawn7.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn7.TabIndex = 35;
-            this.WhitePawn7.Text = "WhitePawn7";
-            this.WhitePawn7.UseVisualStyleBackColor = true;
+            this.G2.Image = ((System.Drawing.Image)(resources.GetObject("G2.Image")));
+            this.G2.Location = new System.Drawing.Point(299, 299);
+            this.G2.Name = "G2";
+            this.G2.Size = new System.Drawing.Size(41, 41);
+            this.G2.TabIndex = 64;
+            this.G2.TabStop = false;
             // 
-            // WhitePawn8
+            // H1
             // 
-            this.WhitePawn8.Location = new System.Drawing.Point(353, 303);
-            this.WhitePawn8.Name = "WhitePawn8";
-            this.WhitePawn8.Size = new System.Drawing.Size(49, 44);
-            this.WhitePawn8.TabIndex = 36;
-            this.WhitePawn8.Text = "WhitePawn8";
-            this.WhitePawn8.UseVisualStyleBackColor = true;
+            this.H1.Image = ((System.Drawing.Image)(resources.GetObject("H1.Image")));
+            this.H1.Location = new System.Drawing.Point(348, 348);
+            this.H1.Name = "H1";
+            this.H1.Size = new System.Drawing.Size(41, 41);
+            this.H1.TabIndex = 65;
+            this.H1.TabStop = false;
             // 
-            // WhiteRook1
+            // H3
             // 
-            this.WhiteRook1.Location = new System.Drawing.Point(3, 353);
-            this.WhiteRook1.Name = "WhiteRook1";
-            this.WhiteRook1.Size = new System.Drawing.Size(44, 45);
-            this.WhiteRook1.TabIndex = 37;
-            this.WhiteRook1.Text = "WhiteRook1";
-            this.WhiteRook1.UseVisualStyleBackColor = true;
+            this.H3.Image = ((System.Drawing.Image)(resources.GetObject("H3.Image")));
+            this.H3.Location = new System.Drawing.Point(348, 250);
+            this.H3.Name = "H3";
+            this.H3.Size = new System.Drawing.Size(41, 41);
+            this.H3.TabIndex = 66;
+            this.H3.TabStop = false;
             // 
-            // WhiteKnight1
+            // H5
             // 
-            this.WhiteKnight1.Location = new System.Drawing.Point(53, 353);
-            this.WhiteKnight1.Name = "WhiteKnight1";
-            this.WhiteKnight1.Size = new System.Drawing.Size(44, 45);
-            this.WhiteKnight1.TabIndex = 38;
-            this.WhiteKnight1.Text = "WhiteKnight1";
-            this.WhiteKnight1.UseVisualStyleBackColor = true;
+            this.H5.Image = ((System.Drawing.Image)(resources.GetObject("H5.Image")));
+            this.H5.Location = new System.Drawing.Point(348, 152);
+            this.H5.Name = "H5";
+            this.H5.Size = new System.Drawing.Size(41, 41);
+            this.H5.TabIndex = 67;
+            this.H5.TabStop = false;
             // 
-            // WhiteBishop1
+            // H7
             // 
-            this.WhiteBishop1.Location = new System.Drawing.Point(103, 353);
-            this.WhiteBishop1.Name = "WhiteBishop1";
-            this.WhiteBishop1.Size = new System.Drawing.Size(44, 45);
-            this.WhiteBishop1.TabIndex = 39;
-            this.WhiteBishop1.Text = "WhiteBishop1";
-            this.WhiteBishop1.UseVisualStyleBackColor = true;
+            this.H7.Image = ((System.Drawing.Image)(resources.GetObject("H7.Image")));
+            this.H7.Location = new System.Drawing.Point(348, 54);
+            this.H7.Name = "H7";
+            this.H7.Size = new System.Drawing.Size(41, 41);
+            this.H7.TabIndex = 68;
+            this.H7.TabStop = false;
             // 
-            // WhiteQueen
+            // G6
             // 
-            this.WhiteQueen.Location = new System.Drawing.Point(153, 353);
-            this.WhiteQueen.Name = "WhiteQueen";
-            this.WhiteQueen.Size = new System.Drawing.Size(44, 45);
-            this.WhiteQueen.TabIndex = 40;
-            this.WhiteQueen.Text = "WhiteQueen";
-            this.WhiteQueen.UseVisualStyleBackColor = true;
+            this.G6.Image = ((System.Drawing.Image)(resources.GetObject("G6.Image")));
+            this.G6.Location = new System.Drawing.Point(299, 103);
+            this.G6.Name = "G6";
+            this.G6.Size = new System.Drawing.Size(41, 41);
+            this.G6.TabIndex = 69;
+            this.G6.TabStop = false;
             // 
-            // WhiteKing
+            // G4
             // 
-            this.WhiteKing.Location = new System.Drawing.Point(203, 353);
-            this.WhiteKing.Name = "WhiteKing";
-            this.WhiteKing.Size = new System.Drawing.Size(44, 45);
-            this.WhiteKing.TabIndex = 41;
-            this.WhiteKing.Text = "WhiteKing";
-            this.WhiteKing.UseVisualStyleBackColor = true;
-            this.WhiteKing.Click += new System.EventHandler(this.WhiteKing_Click);
+            this.G4.Image = ((System.Drawing.Image)(resources.GetObject("G4.Image")));
+            this.G4.Location = new System.Drawing.Point(299, 201);
+            this.G4.Name = "G4";
+            this.G4.Size = new System.Drawing.Size(41, 41);
+            this.G4.TabIndex = 70;
+            this.G4.TabStop = false;
             // 
-            // WhiteBishop2
+            // F5
             // 
-            this.WhiteBishop2.Location = new System.Drawing.Point(253, 353);
-            this.WhiteBishop2.Name = "WhiteBishop2";
-            this.WhiteBishop2.Size = new System.Drawing.Size(44, 45);
-            this.WhiteBishop2.TabIndex = 42;
-            this.WhiteBishop2.Text = "WhiteBishop2";
-            this.WhiteBishop2.UseVisualStyleBackColor = true;
+            this.F5.Image = ((System.Drawing.Image)(resources.GetObject("F5.Image")));
+            this.F5.Location = new System.Drawing.Point(250, 152);
+            this.F5.Name = "F5";
+            this.F5.Size = new System.Drawing.Size(41, 41);
+            this.F5.TabIndex = 71;
+            this.F5.TabStop = false;
             // 
-            // WhiteKnight2
+            // F3
             // 
-            this.WhiteKnight2.Location = new System.Drawing.Point(303, 353);
-            this.WhiteKnight2.Name = "WhiteKnight2";
-            this.WhiteKnight2.Size = new System.Drawing.Size(44, 45);
-            this.WhiteKnight2.TabIndex = 43;
-            this.WhiteKnight2.Text = "WhiteKnight2";
-            this.WhiteKnight2.UseVisualStyleBackColor = true;
+            this.F3.Image = ((System.Drawing.Image)(resources.GetObject("F3.Image")));
+            this.F3.Location = new System.Drawing.Point(250, 250);
+            this.F3.Name = "F3";
+            this.F3.Size = new System.Drawing.Size(41, 41);
+            this.F3.TabIndex = 72;
+            this.F3.TabStop = false;
             // 
-            // WhiteRook2
+            // E4
             // 
-            this.WhiteRook2.Location = new System.Drawing.Point(353, 353);
-            this.WhiteRook2.Name = "WhiteRook2";
-            this.WhiteRook2.Size = new System.Drawing.Size(49, 45);
-            this.WhiteRook2.TabIndex = 44;
-            this.WhiteRook2.Text = "WhiteRook2";
-            this.WhiteRook2.UseMnemonic = false;
-            this.WhiteRook2.UseVisualStyleBackColor = true;
+            this.E4.Image = ((System.Drawing.Image)(resources.GetObject("E4.Image")));
+            this.E4.Location = new System.Drawing.Point(201, 201);
+            this.E4.Name = "E4";
+            this.E4.Size = new System.Drawing.Size(41, 41);
+            this.E4.TabIndex = 73;
+            this.E4.TabStop = false;
             // 
-            // BlackPawn4
+            // D3
             // 
-            this.BlackPawn4.Location = new System.Drawing.Point(153, 53);
-            this.BlackPawn4.Name = "BlackPawn4";
-            this.BlackPawn4.Size = new System.Drawing.Size(44, 44);
-            this.BlackPawn4.TabIndex = 20;
-            this.BlackPawn4.Text = "BlackPawn4";
-            this.BlackPawn4.UseVisualStyleBackColor = true;
+            this.D3.Image = ((System.Drawing.Image)(resources.GetObject("D3.Image")));
+            this.D3.Location = new System.Drawing.Point(152, 250);
+            this.D3.Name = "D3";
+            this.D3.Size = new System.Drawing.Size(41, 41);
+            this.D3.TabIndex = 74;
+            this.D3.TabStop = false;
             // 
-            // WhitePawn1
+            // D7
             // 
-            this.WhitePawn1.Location = new System.Drawing.Point(3, 303);
-            this.WhitePawn1.Name = "WhitePawn1";
-            this.WhitePawn1.Size = new System.Drawing.Size(44, 44);
-            this.WhitePawn1.TabIndex = 29;
-            this.WhitePawn1.Text = "WhitePawn1";
-            this.WhitePawn1.UseVisualStyleBackColor = true;
+            this.D7.Image = ((System.Drawing.Image)(resources.GetObject("D7.Image")));
+            this.D7.Location = new System.Drawing.Point(152, 54);
+            this.D7.Name = "D7";
+            this.D7.Size = new System.Drawing.Size(41, 41);
+            this.D7.TabIndex = 75;
+            this.D7.TabStop = false;
+            // 
+            // C8
+            // 
+            this.C8.Image = ((System.Drawing.Image)(resources.GetObject("C8.Image")));
+            this.C8.Location = new System.Drawing.Point(103, 5);
+            this.C8.Name = "C8";
+            this.C8.Size = new System.Drawing.Size(41, 41);
+            this.C8.TabIndex = 76;
+            this.C8.TabStop = false;
+            // 
+            // E8
+            // 
+            this.E8.Image = ((System.Drawing.Image)(resources.GetObject("E8.Image")));
+            this.E8.Location = new System.Drawing.Point(201, 5);
+            this.E8.Name = "E8";
+            this.E8.Size = new System.Drawing.Size(41, 41);
+            this.E8.TabIndex = 77;
+            this.E8.TabStop = false;
+            // 
+            // A7
+            // 
+            this.A7.Location = new System.Drawing.Point(5, 54);
+            this.A7.Name = "A7";
+            this.A7.Size = new System.Drawing.Size(41, 41);
+            this.A7.TabIndex = 78;
+            this.A7.TabStop = false;
+            // 
+            // A3
+            // 
+            this.A3.Location = new System.Drawing.Point(5, 250);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(41, 41);
+            this.A3.TabIndex = 79;
+            this.A3.TabStop = false;
+            // 
+            // B2
+            // 
+            this.B2.Location = new System.Drawing.Point(54, 299);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(41, 41);
+            this.B2.TabIndex = 80;
+            this.B2.TabStop = false;
+            // 
+            // C1
+            // 
+            this.C1.Location = new System.Drawing.Point(103, 348);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(41, 41);
+            this.C1.TabIndex = 81;
+            this.C1.TabStop = false;
+            // 
+            // D2
+            // 
+            this.D2.Location = new System.Drawing.Point(152, 299);
+            this.D2.Name = "D2";
+            this.D2.Size = new System.Drawing.Size(41, 41);
+            this.D2.TabIndex = 82;
+            this.D2.TabStop = false;
+            // 
+            // C3
+            // 
+            this.C3.Location = new System.Drawing.Point(103, 250);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(41, 41);
+            this.C3.TabIndex = 83;
+            this.C3.TabStop = false;
+            // 
+            // B4
+            // 
+            this.B4.Location = new System.Drawing.Point(54, 201);
+            this.B4.Name = "B4";
+            this.B4.Size = new System.Drawing.Size(41, 41);
+            this.B4.TabIndex = 84;
+            this.B4.TabStop = false;
+            // 
+            // A5
+            // 
+            this.A5.Location = new System.Drawing.Point(5, 152);
+            this.A5.Name = "A5";
+            this.A5.Size = new System.Drawing.Size(41, 41);
+            this.A5.TabIndex = 85;
+            this.A5.TabStop = false;
+            // 
+            // B6
+            // 
+            this.B6.Location = new System.Drawing.Point(54, 103);
+            this.B6.Name = "B6";
+            this.B6.Size = new System.Drawing.Size(41, 41);
+            this.B6.TabIndex = 86;
+            this.B6.TabStop = false;
+            // 
+            // C5
+            // 
+            this.C5.Location = new System.Drawing.Point(103, 152);
+            this.C5.Name = "C5";
+            this.C5.Size = new System.Drawing.Size(41, 41);
+            this.C5.TabIndex = 87;
+            this.C5.TabStop = false;
+            // 
+            // D4
+            // 
+            this.D4.Location = new System.Drawing.Point(152, 201);
+            this.D4.Name = "D4";
+            this.D4.Size = new System.Drawing.Size(41, 41);
+            this.D4.TabIndex = 88;
+            this.D4.TabStop = false;
+            // 
+            // E3
+            // 
+            this.E3.Location = new System.Drawing.Point(201, 250);
+            this.E3.Name = "E3";
+            this.E3.Size = new System.Drawing.Size(41, 41);
+            this.E3.TabIndex = 89;
+            this.E3.TabStop = false;
+            // 
+            // F2
+            // 
+            this.F2.Location = new System.Drawing.Point(250, 299);
+            this.F2.Name = "F2";
+            this.F2.Size = new System.Drawing.Size(41, 41);
+            this.F2.TabIndex = 90;
+            this.F2.TabStop = false;
+            // 
+            // G1
+            // 
+            this.G1.Location = new System.Drawing.Point(299, 348);
+            this.G1.Name = "G1";
+            this.G1.Size = new System.Drawing.Size(41, 41);
+            this.G1.TabIndex = 91;
+            this.G1.TabStop = false;
+            // 
+            // E1
+            // 
+            this.E1.Location = new System.Drawing.Point(201, 348);
+            this.E1.Name = "E1";
+            this.E1.Size = new System.Drawing.Size(41, 41);
+            this.E1.TabIndex = 92;
+            this.E1.TabStop = false;
+            // 
+            // H2
+            // 
+            this.H2.Location = new System.Drawing.Point(348, 299);
+            this.H2.Name = "H2";
+            this.H2.Size = new System.Drawing.Size(41, 41);
+            this.H2.TabIndex = 93;
+            this.H2.TabStop = false;
+            // 
+            // G3
+            // 
+            this.G3.Location = new System.Drawing.Point(299, 250);
+            this.G3.Name = "G3";
+            this.G3.Size = new System.Drawing.Size(41, 41);
+            this.G3.TabIndex = 94;
+            this.G3.TabStop = false;
+            // 
+            // F4
+            // 
+            this.F4.Location = new System.Drawing.Point(250, 201);
+            this.F4.Name = "F4";
+            this.F4.Size = new System.Drawing.Size(41, 41);
+            this.F4.TabIndex = 95;
+            this.F4.TabStop = false;
+            // 
+            // H4
+            // 
+            this.H4.Location = new System.Drawing.Point(348, 201);
+            this.H4.Name = "H4";
+            this.H4.Size = new System.Drawing.Size(41, 41);
+            this.H4.TabIndex = 96;
+            this.H4.TabStop = false;
+            // 
+            // G5
+            // 
+            this.G5.Location = new System.Drawing.Point(299, 152);
+            this.G5.Name = "G5";
+            this.G5.Size = new System.Drawing.Size(41, 41);
+            this.G5.TabIndex = 97;
+            this.G5.TabStop = false;
+            // 
+            // E5
+            // 
+            this.E5.Location = new System.Drawing.Point(201, 152);
+            this.E5.Name = "E5";
+            this.E5.Size = new System.Drawing.Size(41, 41);
+            this.E5.TabIndex = 98;
+            this.E5.TabStop = false;
+            // 
+            // F6
+            // 
+            this.F6.Location = new System.Drawing.Point(250, 103);
+            this.F6.Name = "F6";
+            this.F6.Size = new System.Drawing.Size(41, 41);
+            this.F6.TabIndex = 99;
+            this.F6.TabStop = false;
+            // 
+            // H6
+            // 
+            this.H6.Location = new System.Drawing.Point(348, 103);
+            this.H6.Name = "H6";
+            this.H6.Size = new System.Drawing.Size(41, 41);
+            this.H6.TabIndex = 100;
+            this.H6.TabStop = false;
+            // 
+            // E7
+            // 
+            this.E7.Location = new System.Drawing.Point(201, 54);
+            this.E7.Name = "E7";
+            this.E7.Size = new System.Drawing.Size(41, 41);
+            this.E7.TabIndex = 101;
+            this.E7.TabStop = false;
+            // 
+            // D6
+            // 
+            this.D6.Location = new System.Drawing.Point(152, 103);
+            this.D6.Name = "D6";
+            this.D6.Size = new System.Drawing.Size(41, 41);
+            this.D6.TabIndex = 102;
+            this.D6.TabStop = false;
+            // 
+            // C7
+            // 
+            this.C7.Location = new System.Drawing.Point(103, 54);
+            this.C7.Name = "C7";
+            this.C7.Size = new System.Drawing.Size(41, 41);
+            this.C7.TabIndex = 103;
+            this.C7.TabStop = false;
+            // 
+            // D8
+            // 
+            this.D8.Location = new System.Drawing.Point(152, 5);
+            this.D8.Name = "D8";
+            this.D8.Size = new System.Drawing.Size(41, 41);
+            this.D8.TabIndex = 104;
+            this.D8.TabStop = false;
+            // 
+            // F8
+            // 
+            this.F8.Location = new System.Drawing.Point(250, 5);
+            this.F8.Name = "F8";
+            this.F8.Size = new System.Drawing.Size(41, 41);
+            this.F8.TabIndex = 105;
+            this.F8.TabStop = false;
+            // 
+            // H8
+            // 
+            this.H8.Location = new System.Drawing.Point(348, 5);
+            this.H8.Name = "H8";
+            this.H8.Size = new System.Drawing.Size(41, 41);
+            this.H8.TabIndex = 106;
+            this.H8.TabStop = false;
+            // 
+            // G7
+            // 
+            this.G7.Location = new System.Drawing.Point(299, 54);
+            this.G7.Name = "G7";
+            this.G7.Size = new System.Drawing.Size(41, 41);
+            this.G7.TabIndex = 107;
+            this.G7.TabStop = false;
             // 
             // Row8Label
             // 
@@ -660,7 +1054,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(442, 438);
+            this.ClientSize = new System.Drawing.Size(443, 438);
             this.Controls.Add(this.ColALabel);
             this.Controls.Add(this.ColBLabel);
             this.Controls.Add(this.ColCLabel);
@@ -683,6 +1077,70 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Panel.ResumeLayout(false);
             this.BoardPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.A1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.E7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.C7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.D8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.H8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.G7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -692,42 +1150,6 @@
 
         private System.Windows.Forms.Panel Panel;
         private System.Windows.Forms.TableLayoutPanel BoardPanel;
-
-        private System.Windows.Forms.Button BlackPawn8;
-        private System.Windows.Forms.Button BlackPawn7;
-        private System.Windows.Forms.Button BlackPawn6;
-        private System.Windows.Forms.Button BlackPawn5;
-        private System.Windows.Forms.Button BlackPawn4;
-        private System.Windows.Forms.Button BlackPawn3;
-        private System.Windows.Forms.Button BlackPawn2;
-        private System.Windows.Forms.Button BlackPawn1;
-
-        private System.Windows.Forms.Button BlackRook2;
-        private System.Windows.Forms.Button BlackKnight2;
-        private System.Windows.Forms.Button BlackBishop2;
-        private System.Windows.Forms.Button BlackKing;
-        private System.Windows.Forms.Button BlackQueen;
-        private System.Windows.Forms.Button BlackBishop1;
-        private System.Windows.Forms.Button BlackKnight1;
-        private System.Windows.Forms.Button BlackRook1;
-
-
-        private System.Windows.Forms.Button WhitePawn1;
-        private System.Windows.Forms.Button WhitePawn2;
-        private System.Windows.Forms.Button WhitePawn3;
-        private System.Windows.Forms.Button WhitePawn4;
-        private System.Windows.Forms.Button WhitePawn5;
-        private System.Windows.Forms.Button WhitePawn6;
-        private System.Windows.Forms.Button WhitePawn7;
-        private System.Windows.Forms.Button WhitePawn8;
-        private System.Windows.Forms.Button WhiteRook1;
-        private System.Windows.Forms.Button WhiteKnight1;
-        private System.Windows.Forms.Button WhiteBishop1;
-        private System.Windows.Forms.Button WhiteQueen;
-        private System.Windows.Forms.Button WhiteKing;
-        private System.Windows.Forms.Button WhiteBishop2;
-        private System.Windows.Forms.Button WhiteKnight2;
-        private System.Windows.Forms.Button WhiteRook2;
 
         private System.Windows.Forms.Label Row8Label;
         private System.Windows.Forms.Label Row7Label;
@@ -746,6 +1168,70 @@
         private System.Windows.Forms.Label ColFLabel;
         private System.Windows.Forms.Label ColGLabel;
         private System.Windows.Forms.Label ColHLabel;
+        private System.Windows.Forms.PictureBox C6;
+        private System.Windows.Forms.PictureBox A8;
+        private System.Windows.Forms.PictureBox B8;
+        private System.Windows.Forms.PictureBox B7;
+        private System.Windows.Forms.PictureBox A2;
+        private System.Windows.Forms.PictureBox B3;
+        private System.Windows.Forms.PictureBox C4;
+        private System.Windows.Forms.PictureBox D5;
+        private System.Windows.Forms.PictureBox E6;
+        private System.Windows.Forms.PictureBox F7;
+        private System.Windows.Forms.PictureBox G8;
+        private System.Windows.Forms.PictureBox A6;
+        private System.Windows.Forms.PictureBox B5;
+        private System.Windows.Forms.PictureBox A4;
+        private System.Windows.Forms.PictureBox C2;
+        private System.Windows.Forms.PictureBox B1;
+        private System.Windows.Forms.PictureBox D1;
+        private System.Windows.Forms.PictureBox E2;
+        private System.Windows.Forms.PictureBox F1;
+        private System.Windows.Forms.PictureBox G2;
+        private System.Windows.Forms.PictureBox H1;
+        private System.Windows.Forms.PictureBox H3;
+        private System.Windows.Forms.PictureBox H5;
+        private System.Windows.Forms.PictureBox H7;
+        private System.Windows.Forms.PictureBox G6;
+        private System.Windows.Forms.PictureBox G4;
+        private System.Windows.Forms.PictureBox F5;
+        private System.Windows.Forms.PictureBox F3;
+        private System.Windows.Forms.PictureBox E4;
+        private System.Windows.Forms.PictureBox D3;
+        private System.Windows.Forms.PictureBox D7;
+        private System.Windows.Forms.PictureBox C8;
+        private System.Windows.Forms.PictureBox E8;
+        private System.Windows.Forms.PictureBox A1;
+        private System.Windows.Forms.PictureBox A7;
+        private System.Windows.Forms.PictureBox A3;
+        private System.Windows.Forms.PictureBox B2;
+        private System.Windows.Forms.PictureBox C1;
+        private System.Windows.Forms.PictureBox D2;
+        private System.Windows.Forms.PictureBox C3;
+        private System.Windows.Forms.PictureBox B4;
+        private System.Windows.Forms.PictureBox A5;
+        private System.Windows.Forms.PictureBox B6;
+        private System.Windows.Forms.PictureBox C5;
+        private System.Windows.Forms.PictureBox D4;
+        private System.Windows.Forms.PictureBox E3;
+        private System.Windows.Forms.PictureBox F2;
+        private System.Windows.Forms.PictureBox G1;
+        private System.Windows.Forms.PictureBox E1;
+        private System.Windows.Forms.PictureBox H2;
+        private System.Windows.Forms.PictureBox G3;
+        private System.Windows.Forms.PictureBox F4;
+        private System.Windows.Forms.PictureBox H4;
+        private System.Windows.Forms.PictureBox G5;
+        private System.Windows.Forms.PictureBox E5;
+        private System.Windows.Forms.PictureBox F6;
+        private System.Windows.Forms.PictureBox H6;
+        private System.Windows.Forms.PictureBox E7;
+        private System.Windows.Forms.PictureBox D6;
+        private System.Windows.Forms.PictureBox C7;
+        private System.Windows.Forms.PictureBox D8;
+        private System.Windows.Forms.PictureBox F8;
+        private System.Windows.Forms.PictureBox H8;
+        private System.Windows.Forms.PictureBox G7;
 
     }
 }
