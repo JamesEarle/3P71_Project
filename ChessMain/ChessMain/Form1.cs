@@ -23,12 +23,11 @@ namespace ChessMain
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.ShowDialog();
         }
 
         private void A8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
+            /*MessageBox.Show(
                 BoardPanel.Controls.IndexOf(A8).ToString()
                 + "\n" + BoardPanel.Controls.IndexOf(B8).ToString()
                 + "\n" + BoardPanel.Controls.IndexOf(C8).ToString()
@@ -38,15 +37,28 @@ namespace ChessMain
                 + "\n" + BoardPanel.Controls.IndexOf(G8).ToString()
                 + "\n" + BoardPanel.Controls.IndexOf(H8).ToString()
                 );
-            //BoardPanel.Controls.Remove(A8);
-            //BoardPanel.Controls.Add(A7, 0, 0);
-            Swap_Tiles(A8, C4);
+             * 
+             * 
+             * TODO: Prompt event listener when you click a tile, and then once you click 
+             * another tile it will interpret this as a move. If the move is valid, it will make that move by 
+             * swapping out the necessary images on the board.
+             */ 
+            //Below code successfully swaps images on A8 tile
+            if (!Boolean.Equals(A8.BackgroundImage, null))
+            {
+                A8.BackgroundImage = null;
+            }
+            else
+            {
+                A8.BackgroundImage = global::ChessMain.Properties.Resources.white_rook_w;
+            }
         }
 
         private void Swap_Tiles(PictureBox a, PictureBox b)
         {
             MessageBox.Show(BoardPanel.Controls.IndexOf(a).ToString() + "\n" +
                 BoardPanel.Controls.IndexOf(b).ToString());
+
             int i = BoardPanel.Controls.IndexOf(a);
             int j = BoardPanel.Controls.IndexOf(b);
 
@@ -62,6 +74,133 @@ namespace ChessMain
              * add(C4,4,2) is that location, but the indexOf will return 20.
              */
 
+        }
+
+        private void A6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void D3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void E2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void F1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void G2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BoardPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void H3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void G4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void H5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void G6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void F5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void E6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void D5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void D1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void H1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B8_Click(object sender, EventArgs e)
+        {
+            if (!Boolean.Equals(B8.BackgroundImage, null))
+            {
+                B8.BackgroundImage = null;
+            }
+            else
+            {
+                B8.BackgroundImage = global::ChessMain.Properties.Resources.white_rook_w;
+            }
         }
     }
 }
