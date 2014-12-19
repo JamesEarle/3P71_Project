@@ -16,10 +16,11 @@ namespace ChessEngine
             bool exit = false;
             
             //This is the main game loop. It'll continue to loop until exit is true, breaking the program loop and exiting the application.
-            do
+            while (!exit) 
             {
                 //Check for user input
                 getUserMove();
+
                 //Check if user move is valid
 
                 //If User move is valid, call computer engine to respond
@@ -27,12 +28,12 @@ namespace ChessEngine
 
                 Console.WriteLine("Continue?");
                 String exitString = Console.ReadLine();
+
                 if (exitString == "x")
                 {
                     exit = true;
                 }
             }
-            while (exit == false);
 
         }
 

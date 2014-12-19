@@ -14,6 +14,7 @@ namespace ChessEngine
             return 0;
         }
 
+        /* Alpha-Beta pruning algorithms.
         public int alphaBetaMax(int alpha, int beta, int depthleft)
         {
             if (depthleft == 0)
@@ -58,7 +59,7 @@ namespace ChessEngine
                 }
             }
             return alpha;
-        }
+        }*/
     }
 
 

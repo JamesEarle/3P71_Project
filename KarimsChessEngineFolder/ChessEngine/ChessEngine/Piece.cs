@@ -8,12 +8,17 @@ namespace ChessEngine
 {
     class Piece
     {
-        public int colPosition;
-        public int rowPosition;
+        /* Can use this array to assign/alter the type of a piece (e.g. pawn to queen) */
+        public String[] types = {"King", "Queen", "Bishop", "Knight", "Rook", "Pawn", };
 
-        //0 for human, 1 for computer
-        public int humOrComp;
+        public int col;
+        public int row;
+
+        //"int humOrComp" changed to "bool player"
+        //false for PC, true for human.
+        public bool player;
         public bool alive;
+
         public int timesMoved;
 
         public String pieceType;
